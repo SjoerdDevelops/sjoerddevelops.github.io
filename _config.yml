@@ -63,7 +63,6 @@ exclude:
   - LICENSE
   - netlify.toml
 
-
 # -------------------
 # Theme Config
 # --------------------
@@ -99,7 +98,8 @@ colors:
 
 fonts:
   use_google_fonts: false
-  google_fonts_url: "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,700&family=Fira+Mono&display=swap"
+  google_fonts_url: "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9\
+    ..40,300;9..40,500;9..40,700&family=Fira+Mono&display=swap"
   use_self_hosted_fonts: true # font files must be placed in /assets/fonts folder and the @font-face definitions must be added to /assets/css/fonts.css
   heading: "'DM Sans'"
   base: "'DM Sans'"
@@ -121,7 +121,7 @@ logo:
   show_logo_text_on_mobile: false
   show_logo_text_on_desktop: false
 
-header: 
+header:
   fixed: false
 
 open_graph:
@@ -159,31 +159,32 @@ newsletter:
     form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
     form_title: "Let's keep in touch"
 
-contact_form: 
+contact_form:
   use_netlify_form: false
   use_formspree_form: true
   formspree_endpoint: https://formspree.io/f/moqyklqv
   netlify_form_name: "contact"
 
-menu: 
+menu:
   show_dropdown_items_in_mobile_menu: false
   show_social_media_in_mobile_menu: true
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "Jekyll Curate"
-  footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
+  footer_title: "SjoerdDevelops"
+  footer_description: "A space to showcase my projects, reflect on what I learn,
+    and share helpful resources."
   enable_social_media_icons: true
   enable_contact_details: false
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: false
-  footer_primary_menu_title: "Our Projects"
-  footer_secondary_menu_title: "Company"
+  footer_primary_menu_title: "<a href=\"/projects/\">Projects</a>"
+  footer_secondary_menu_title: "<a href=\"/\">Home</a>"
   footer_tertiary_menu_title: "Other"
 
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2021 Zerostatic Themes"
+  copyright_text: "© 2026 SjoerdDevelops"
   show_rss_icon: true

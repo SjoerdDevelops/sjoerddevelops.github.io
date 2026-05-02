@@ -1,10 +1,10 @@
 ---
 layout: home
 permalink: "/"
-title: "<strong>SjoerdDevelops</strong> is my personal blog and portfolio"
+title: "<strong>SjoerdDevelops;</strong> <br>Portfolio and Blog"
 description: "A space to showcase my projects, reflect on what I learn, and share helpful resources"
 meta_description: "SjoerdDevelops - A space to showcase my projects, reflect on what I learn, and share helpful resources"
-meta_title: SjoerdDevelops - Projects and Blog
+meta_title: SjoerdDevelops - Project Portfolio & Blog
 subscribe: false
 
 projects:
