@@ -1,10 +1,10 @@
 ---
 layout: home
 permalink: "/"
-title: "Curate is a premium portfolio for <strong>Jekyll.</strong>"
-description: "Showcase your projects, work or case studies in style with this markdown powered portfolio theme for Jekyll."
-meta_description: "Jekyll Curate is a premium Jekyll blog theme"
-meta_title: Jekyll Curate - Premium Portfolio Theme
+title: "<strong>SjoerdDevelops</strong> is my personal blog and portfolio"
+description: "A space to showcase my projects, reflect on what I learn, and share helpful resources"
+meta_description: "SjoerdDevelops - A space to showcase my projects, reflect on what I learn, and share helpful resources"
+meta_title: SjoerdDevelops - Projects and Blog
 subscribe: false
 
 projects:
