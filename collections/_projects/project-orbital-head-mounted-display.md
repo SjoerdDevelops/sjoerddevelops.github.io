@@ -46,8 +46,7 @@ Participants were asked to complete robotic welding tasks in a simulator. They t
 
 ## What the Results Showed
 
-The results were clear: both VR-based systems — OHMD and the standard HMD — outperformed the traditional multi-camera setup. Operators using these interfaces completed tasks :w
-more effectively, felt less mentally strained, and reported a more positive experience overall.
+The results were clear: both VR-based systems — OHMD and the standard HMD — outperformed the traditional multi-camera setup. Operators using these interfaces completed tasks more effectively, felt less mentally strained, and reported a more positive experience overall.
 
 <strong>But OHMD brought something extra to the table.</strong>
 
