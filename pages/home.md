@@ -4,13 +4,13 @@ permalink: "/"
 title: "<strong>SjoerdDevelops;</strong> <br>Portfolio and Blog"
 description: "A space to showcase my projects, reflect on what I learn, and share helpful resources"
 meta_description: "SjoerdDevelops - A space to showcase my projects, reflect on what I learn, and share helpful resources"
-meta_title: SjoerdDevelops - Project Portfolio & Blog
+meta_title: SjoerdDevelops - Portfolio & Blog
 subscribe: false
 
 projects:
   heading: "" # "Projects"
   sub_heading: "" # "A collection of our recent work"
-  limit: 4
+  limit: 1
   sort: weight # date | weight
   view_more_button_text: "" # "More Projects"
   view_more_button_link: "" # "/projects"

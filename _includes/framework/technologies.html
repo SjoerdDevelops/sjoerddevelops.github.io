@@ -1,0 +1,5 @@
+{% assign technologies = include.technologies %}
+
+{% if technologies %}
+    <span>{{ technologies | join: ", " }}</span>
+{% endif %}

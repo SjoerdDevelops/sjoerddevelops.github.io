@@ -36,12 +36,15 @@ body_classes: page-project
         <div class="project-client"><strong>Client </strong><span>{{ page.client }}</span></div>
         {% endif %} {% if page.role %}
         <div class="project-role"><strong>Role </strong><span>{{ page.role }}</span></div>
+        {% endif %} {% if page.technologies %}
+        <div class="project-technologies-custom my-4"><strong>Technologies </strong>{% include framework/technologies.html technologies=page.technologies %}</div>
         {% endif %}
       </div>
 
       <div class="col-12 col-md-6">
-        <div class="content">{{ page.description }}</div>
+        <div class="content">{{ page.introduction }}</div>
       </div>
+      <div class="content my-8">{{ content }}</div>
     </div>
   </div>
 </div>

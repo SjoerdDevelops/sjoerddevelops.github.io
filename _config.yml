@@ -66,7 +66,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "Jekyll Curate"
+title: "SjoerdDevelops" # Site Title
 category_dir: category
 
 colors:

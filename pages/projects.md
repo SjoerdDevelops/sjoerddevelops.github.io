@@ -6,7 +6,7 @@ permalink: "/projects/"
 projects:
   heading: "" # "Projects"
   sub_heading: "" # "A collection of our recent work"
-  limit: 96
+  limit: 1 # 96
   sort: weight # date | weight
   view_more_button_text: "" # "More Projects"
   view_more_button_link: "" # "/projects"
