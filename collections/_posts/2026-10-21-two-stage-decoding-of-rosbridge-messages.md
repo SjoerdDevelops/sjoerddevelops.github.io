@@ -1,10 +1,6 @@
-# Two-stage decoding of rosbridge messages with msgspec
+**At work I was tasked to develop a Robot Fleet API using [FastAPI](https://fastapi.tiangolo.com/) that talks to robots through `rosbridge_server`. I wanted the whole chain to be strongly typed: from the raw websocket bytes to strongly typed domain entities and API endpoints. But typing everything has a price: validating a payload costs CPU on every message, which adds up for large and frequent streams such as camera images and point clouds. Furthermore, every payload type also needs a model, which adds development cost. Validation shouldn't be a cost that every message pays blindly, in performance or in maintenance.**
 
-## Goal
-
-At work I was tasked to develop a Robot Fleet API using [FastAPI](https://fastapi.tiangolo.com/) that talks to robots through `rosbridge_server`. I wanted the whole chain to be strongly typed: from the raw websocket bytes to strongly typed domain entities and API endpoints. But typing everything has a price: validating a payload costs CPU on every message, which adds up for large and frequent streams such as camera images and point clouds. Furthermore, every payload type also needs a model, which adds development cost. Validation shouldn't be a cost that every message pays blindly, in performance or in maintenance.
-
-This post describes how I resolved that tension with [msgspec](https://jcristharif.com/msgspec/): by decoding each rosbridge packet in two stages, and making the second stage optional.
+**This post describes how I resolved that tension with [msgspec](https://jcristharif.com/msgspec/): by decoding each rosbridge packet in two stages, and making the second stage optional.**
 
 ## Rosbridge Protocol
 
