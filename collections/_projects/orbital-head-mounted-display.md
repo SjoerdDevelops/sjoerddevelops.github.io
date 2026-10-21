@@ -26,8 +26,8 @@ gallery_limit: 2
 
 Traditional teleoperation setups often rely on arrays of fixed camera views shown on monitors. While this approach works, it comes with notable limitations. The available viewpoints are limited and often suboptimal due to camera placement constraints. Furthermore, operators must mentally piece together a 3D understanding of the scene from separate 2D images.
 
-![Array of fixed camera views](/assets/images/projects/ohmd/array-fixed-views.webp)
-*Example of a traditional teleoperation infterface; an array of fixed camera views*
+{% include framework/shortcodes/figure.html src="/assets/images/projects/ohmd/array-fixed-views.webp" title="Traditional Teleoperation Interface" caption="Example of a traditional teleoperation infterface; an array of fixed camera views" alt="Example of a traditional teleoperation infterface" target="\_blank" %}
+
 
 Some of these drawbacks can be avoided by introducing a dynamic viewpoint. In two extreme cases, this viewpoint is either autonomously or manually controlled. However, both approaches introduce new challenges. Autonomous camera control may present views that don't align with the operator's preferences, while manual control requires the operator to manage an additional six degrees of freedom.
 

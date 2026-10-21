@@ -6,16 +6,16 @@ main:
     url: /projects/
     weight: 2
     child:
-      - name: "Orbital HMD"
-        icon: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
-        icon_darkmode: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
-        description: "An intuitive camera control system for robot teleoperation"
-        url: /projects/orbital-head-mounted-display/
       - name: "Robot Fleet API"
         icon: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
         icon_darkmode: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
         description: "FastAPI built on msgspec and rosbridge_server"
         url: /projects/robot-fleet-api/
+      - name: "Orbital HMD"
+        icon: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
+        icon_darkmode: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
+        description: "An intuitive camera control system for robot teleoperation"
+        url: /projects/orbital-head-mounted-display/
       # - name: "Project Layout 1"
       #   icon: "/assets/images/icons/wireframe-7.svg"
       #   icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
