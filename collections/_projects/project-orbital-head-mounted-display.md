@@ -9,15 +9,15 @@ But there’s a catch. For teleoperation to truly work, operators need to feel c
 That’s exactly the problem this research set out to tackle."
 date: "2022-03-29"
 weight: 1
-thumbnail: "/assets/images/gen/projects/project-ohmd-1-thumbnail.webp"
+thumbnail: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
 client: "TU Delft"
 categories: ["Research"]
 role: "Researcher"
 technologies: ["Unity", "VR"]
 gallery:
 
-- image: "/assets/images/gen/projects/project-ohmd-1.webp"
-- image: "/assets/images/gen/projects/project-4-4.webp"
+- image: "/assets/images/projects/ohmd/project-ohmd-1.webp"
+- image: "/assets/images/projects/ohmd/ohmd-diagram.webp"
 - image: "/assets/images/gen/projects/project-4-7.webp"
 gallery_limit: 2
 
