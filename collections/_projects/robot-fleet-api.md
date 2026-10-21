@@ -2,7 +2,7 @@
 layout: project-right
 title: "Robot Fleet API"
 description: "Developing a Robot Fleet API using FastAPI, msgspec, and rosbridge_server"
-date: 2026-10-21
+date: 2026
 weight: 1
 thumbnail: "/assets/images/projects/robot-fleet-api/robot_transport_thumbnail.webp"
 categories: ["Development"]
