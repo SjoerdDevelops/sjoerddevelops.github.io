@@ -8,7 +8,7 @@ But there’s a catch. For teleoperation to truly work, operators need to feel c
 
 That’s exactly the problem this research set out to tackle."
 date: "2022-03-29"
-weight: 1
+weight: 2
 thumbnail: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
 client: "TU Delft"
 categories: ["Research"]

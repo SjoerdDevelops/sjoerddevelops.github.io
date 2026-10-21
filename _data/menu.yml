@@ -47,8 +47,10 @@ main:
     weight: 4
 
 footer_primary:
+  - name: "Robot Fleet API"
+    url: /projects/robot-fleet-api/
   - name: "Orbital HMD"
-    url: /projects/project-orbital-head-mounted-display/
+    url: /projects/orbital-head-mounted-display/
   # - name: "Project 1"
   #   url: /projects/project-1/
   # - name: "Project 2"

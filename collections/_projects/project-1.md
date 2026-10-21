@@ -3,7 +3,7 @@ layout: project # alternative layouts: project, project-left, project-right, pro
 title: "Water Works Revitalisation"
 description: "Breathing new life into old industrial estates"
 date: 2018-12-20
-weight: 2
+weight: 99
 thumbnail: "/assets/images/gen/projects/project-2-1-thumbnail.webp"
 categories: ["Development"]
 client: "Brisbane City Council"

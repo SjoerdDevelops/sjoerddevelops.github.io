@@ -3,7 +3,7 @@ layout: project-top
 title: "Subway"
 description: "An open source machine learning library written in Python"
 date: 2019-03-15
-weight: 4
+weight: 99
 thumbnail: "/assets/images/gen/projects/project-4-6-thumbnail.webp"
 client: "RGA Agency"
 categories: ["Development"]
