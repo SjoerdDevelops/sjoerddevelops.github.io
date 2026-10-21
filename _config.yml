@@ -122,7 +122,7 @@ logo:
   show_logo_text_on_desktop: true
 
 header:
-  fixed: false
+  fixed: true
 
 open_graph:
   meta_opengraph_type: "website"
