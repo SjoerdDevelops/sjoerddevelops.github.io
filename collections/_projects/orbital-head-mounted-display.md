@@ -58,7 +58,7 @@ Interestingly, though, the standard HMD still had an edge when it came to perfor
 
 ## Orbital Head-Mounted Display in 5 Minutes
 
-<div class="container-832">{% include framework/shortcodes/youtube.html id="i6nopCUrqE0" title="IROS 2023 - Orbital Head-Mounted Display (OHMD)" %} </div>
+{% include framework/shortcodes/youtube-auto-scale.html id="i6nopCUrqE0" title="IROS 2023 - Orbital Head-Mounted Display (OHMD)" %}
 
 <!-- ## Striking the Right Balance -->
 ## Links
