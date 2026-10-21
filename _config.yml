@@ -122,7 +122,7 @@ logo:
   show_logo_text_on_desktop: true
 
 header:
-  fixed: true
+  fixed: false
 
 open_graph:
   meta_opengraph_type: "website"
@@ -166,7 +166,7 @@ contact_form:
   netlify_form_name: "contact"
 
 menu:
-  show_dropdown_items_in_mobile_menu: false
+  show_dropdown_items_in_mobile_menu: true
   show_social_media_in_mobile_menu: true
   show_thumbnails: false
 
