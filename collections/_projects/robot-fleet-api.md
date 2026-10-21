@@ -2,7 +2,7 @@
 layout: project-right
 title: "Robot Fleet API"
 description: "Developing a Robot Fleet API using FastAPI, msgspec, and rosbridge_server"
-date: 2026
+date: 2026-10-21
 weight: 1
 thumbnail: "/assets/images/projects/robot-fleet-api/robot_transport_thumbnail.webp"
 categories: ["Development"]
@@ -43,7 +43,7 @@ The codebase is split into three modules, each with its own responsibility:
 - **`core`** (application layer) routes requests and responses to their handlers based on envelope type.
 - **`api`** (interface layer) exposes the robot fleet over HTTP.
 
-Validation is split across the bottom two layers and handled by the [msgspec](https://jcristharif.com/msgspec/) library. The transport layer encodes and decodes packets into rosbridge envelopes, and the application layer optionally decodes the payloads those packets carry. For more on why we chose msgspec over Pydantic and how the two-stage decoding works, see [my blog post](https://sjoerddevelops.github.io/blog/2026-10-21-two-stage-decoding-of-rosbridge-messages/).
+Validation is split across the bottom two layers and handled by the [msgspec](https://jcristharif.com/msgspec/) library. The transport layer encodes and decodes packets into rosbridge envelopes, and the application layer optionally decodes the payloads those packets carry. For more on why I chose msgspec over Pydantic and how the two-stage decoding works, see [my blog post](https://sjoerddevelops.github.io/blog/2026-10-21-two-stage-decoding-of-rosbridge-messages/).
 
 ## Result
 
