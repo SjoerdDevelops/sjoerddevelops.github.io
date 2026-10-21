@@ -31,7 +31,7 @@ I was therefore tasked to develop a Robot Fleet API using [FastAPI](https://fast
 
 I wanted the whole chain to be strongly typed, from the raw websocket bytes all the way to the domain entities and API endpoints. But typing everything has a price. Validating a payload costs CPU on every message, which adds up for large and frequent streams such as camera images and point clouds. Every payload type also needs a model, which adds development cost.
 
-As a team, we pilot new robot concepts in hospital environments, where the robots' interfaces change regularly. Most of our messages are small, so decoding them costs almost nothing in performance. The real cost is development time: every interface change means updating a model, and that time is better spent on the robot concepts themselves.
+As a team we pilot new robot concepts in hospital environments and in this context the robots' interfaces change regularly. Most of our messages are small, so decoding them costs almost nothing in performance. The real cost is development time: every interface change means updating a model, and that time is better spent on the robot concepts themselves.
 
 The challenge was therefore to build a scalable API that supports rapid development cycles, while still allowing thorough validation of data traffic where it's needed.
 
