@@ -7,8 +7,8 @@ main:
     weight: 2
     child:
       - name: "Orbital HMD"
-        icon: "/assets/images/gen/projects/project-ohmd-1-thumbnail.webp"
-        icon_darkmode: "/assets/images/gen/projects/project-ohmd-1-thumbnail.webp"
+        icon: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
+        icon_darkmode: "/assets/images/projects/ohmd/project-ohmd-1-thumbnail.webp"
         description: "Orbital Head-Mounted Display"
         url: /projects/project-orbital-head-mounted-display/
       # - name: "Project Layout 1"
@@ -34,9 +34,9 @@ main:
   - name: Blog
     url: /blog/
     weight: 2
-  # - name: About
-  #   url: /about/
-  #   weight: 3
+  - name: About
+    url: /about/
+    weight: 3
   - name: Contact
     url: /contact/
     weight: 4

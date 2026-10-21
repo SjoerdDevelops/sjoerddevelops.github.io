@@ -30,7 +30,7 @@ Traditional teleoperation setups often rely on arrays of fixed camera views show
 
 Some of these drawbacks can be avoided by introducing a dynamic viewpoint. In two extreme cases, this viewpoint is either autonomously or manually controlled. However, both approaches introduce new challenges. Autonomous camera control may present views that don't align with the operator's preferences, while manual control requires the operator to manage an additional six degrees of freedom.
 
-The introduction of Stereoscopic head-mounted displays (i.e. Virtual Reality headsets) offers another improvement by providing depth information and more intuitive controls. Even so, the operator's viewpoint remains limited by their physical movement range.
+The introduction of stereoscopic head-mounted displays (i.e. Virtual Reality headsets) offers another improvement by providing depth information and more intuitive controls. Even so, the operator's viewpoint remains limited by their physical movement range.
 
 ## A New Way to See and Control
 
