@@ -168,6 +168,7 @@ contact_form:
 menu:
   show_dropdown_items_in_mobile_menu: false
   show_social_media_in_mobile_menu: true
+  show_thumbnails: false
 
 footer:
   enable_footer: true # show/hide the entire footer
