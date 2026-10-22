@@ -28,8 +28,8 @@ Triakis icosahedron
 
 
 <div style="display: flex; gap: 20px;">
-  <div markdown="1" style="flex: 1;">
-    I made a lamp in the shape of a *Triakis icosahedron* - a geometrical shape made of 60 isosceles triangle faces. For the panes I used <i>geodriehoeken</i>>. A _geodriehoek_ is a ruler and protractor in one, in the shape of a 45°-45°-90° triangle made of transparent plastic. 
+  <div style="flex: 1;">
+    I made a lamp in the shape of a ?<i>Triakis icosahedron</i> - a geometrical shape made of 60 isosceles triangle faces. For the panes I used <i>geodriehoeken</i>. A <i>geodriehoek</i> is a ruler and protractor in one, in the shape of a 45°-45°-90° triangle made of transparent plastic. 
   </div>
   <div style="flex: 1;">
     {% include framework/shortcodes/figure-no-link.html src="/assets/images/projects/ohmd/array-fixed-views.webp" title="Array of fixed camera views" caption="An example of a traditional teleoperation interface" alt="Example of a traditional teleoperation interface" %}
