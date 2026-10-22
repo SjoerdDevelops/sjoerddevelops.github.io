@@ -1,0 +1,11 @@
+<figure {% if include.full %} class="figure-full" {% endif %} {% if include.margin == false %} style="margin: 0;" {% endif %}>
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}">
+  <figcaption>
+    {% if include.title %} 
+    <h4>{{ include.title }}</h4>
+    {% endif %}
+    {% if include.caption %} 
+    <p>{{ include.caption }}</p>
+    {% endif %}
+  </figcaption>
+</figure>

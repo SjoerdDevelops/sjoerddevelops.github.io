@@ -24,15 +24,21 @@ I enjoy applying the skills I acquire in personal projects. During my brief stin
 In my current job, I noticed that resource planning across projects sometimes led to colleagues being either over- or underutilized. To adress this issue, I learned `PyQt` in my free time and developed a small application to consolidate project planning files. 
 
 ### Making
+{% capture making-text %}
+I own a small 3D printer at home which I like to get creative with from time to time.
+
+For example, I made a lamp in the shape of a *Triakis icosahedron* which is a geometrical shape made of 60 isosceles triangle faces. For the panes I used *geodriehoeken*. A *geodriehoek* is a ruler and protractor in one, in the shape of a 45°-45°-90° triangle made of transparent plastic.
+{% endcapture %}
+
 <div style="display: flex; gap: 20px; margin-bottom: 20px">
   <div style="flex: 1;">
-    <p>I own a small 3D printer at home which I like to get creative with from time to time. </p>
-    <p>For example, I made a lamp in the shape of a <i>Triakis icosahedron</i> which is a geometrical shape made of 60 isosceles triangle faces. For the panes I used <i>geodriehoeken</i>. A <i>geodriehoek</i> is a ruler and protractor in one, in the shape of a 45°-45°-90° triangle made of transparent plastic. </p>
+    {{ making-text | markdownify }}
   </div>
   <div style="flex: 1;">
-    <img src="/assets/images/about/lamp.webp" style="margin: 0;"/>
+    {% include custom/figure.html src="/assets/images/about/lamp.webp" alt="3D printed lamp" margin=false %}
   </div>
 </div>
+
 I enjoy playing board- and videogames with friends. I captured some of our best (and worst) moments on 3D printed coasters.
 <div style="display: flex; gap: 20px; margin: 20px 0">
   <div style="flex: 3;"><img src="/assets/images/about/coaster_set.webp" style="margin: 0;"/></div>

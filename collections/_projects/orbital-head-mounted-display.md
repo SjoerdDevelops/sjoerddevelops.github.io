@@ -26,7 +26,7 @@ gallery_limit: 2
 
 Traditional teleoperation setups often rely on arrays of fixed camera views shown on monitors. While this approach works, it comes with notable limitations. The available viewpoints are limited and often suboptimal due to camera placement constraints. Furthermore, operators must mentally piece together a 3D understanding of the scene from separate 2D images.
 
-{% include framework/shortcodes/figure-no-link.html src="/assets/images/projects/ohmd/array-fixed-views.webp" title="Array of fixed camera views" caption="An example of a traditional teleoperation interface" alt="Example of a traditional teleoperation interface" %}
+{% include custom/figure.html src="/assets/images/projects/ohmd/array-fixed-views.webp" title="Array of fixed camera views" caption="An example of a traditional teleoperation interface" alt="Example of a traditional teleoperation interface" %}
 
 Some of these drawbacks can be avoided by introducing a dynamic viewpoint. In two extreme cases, this viewpoint is either autonomously or manually controlled. However, both approaches introduce new challenges. Autonomous camera control may present views that don't align with the operator's preferences, while manual control requires the operator to manage an additional six degrees of freedom.
 
@@ -58,7 +58,7 @@ Interestingly, though, the standard HMD still had an edge when it came to perfor
 
 ## Orbital Head-Mounted Display in 5 Minutes
 
-{% include framework/shortcodes/youtube-auto-scale.html id="i6nopCUrqE0" title="IROS 2023 - Orbital Head-Mounted Display (OHMD)" %}
+{% include custom/youtube.html id="i6nopCUrqE0" title="IROS 2023 - Orbital Head-Mounted Display (OHMD)" %}
 
 <!-- ## Striking the Right Balance -->
 ## Links
